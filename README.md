@@ -19,7 +19,8 @@ The project was done in 4 days and is intended as a submission for the Fundament
 ## Tools Used
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Backend using python's [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+
+Backend using python's [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
 ## How To Run
 
