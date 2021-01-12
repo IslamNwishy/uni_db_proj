@@ -13,8 +13,10 @@ The project was done in 4 days and is intended as a submission for the Fundament
 
 ## Could be added
 
-- Allowing the student to see a history of the courses they have taken and the grades they got in them
-- Calculating the overall GPA of the student
+- Allowing the student to see a history of the courses they have taken and the grades they got in them.
+- Calculating the overall GPA of the student.
+- A more secured method for signing/logging.
+- More optimized code for the frontend
 
 ## Tools Used
 
