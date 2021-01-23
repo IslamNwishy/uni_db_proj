@@ -26,11 +26,12 @@ Backend using python's [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
 ## How To Run
 
-- Included in the directory `.\api` are two environments, one to run the code on windows named `venv-win` and another to run it on linux named `venv` based on the OS that you will be running this on, you can simply delete the venv file that you do not need.
+- Included in the directory `package.json` are two commands to run a virtual environment, one to run on windows named `venv-win` and another to run on linux named `venv` based on the OS that you will be running this on, you can simply delete the venv file that you do not need.
+- using the included a requirement file you should create your own virtual env. inside the api folder and run `pip install -r requirements.txt` then `flask run` or using the npm command for starting the flask api (step 3), only would work if the virtual env. is named according to (step 1).
 - To start up the api run the command `npm run start-flask-api-win` or `npm run start-flask-api` based on your OS
+- The node_modules are not included as well so you might need to run `npm install`
 - In a separate terminal/command prompt instance, run the command `npm start` that should in turn start a local server for you at `http://localhost:3000/` and start the web app
 - You also need to set up the database either locally or remotely and type the appropriate credentials in the top part of the api.py file. (see section below for the database details)
-- the node_modules are not included as well so you might need to run `npm install`
 
 ## Database
 
